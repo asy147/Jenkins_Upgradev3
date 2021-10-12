@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Staging Environment quick test2'){
+        stage('Deploy in Staging Environment fully auto now except box to confirm'){
             steps{
                 build job: 'deploy_app_staging_env'
 

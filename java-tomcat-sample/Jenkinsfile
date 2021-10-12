@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Staging Environment quick test'){
+        stage('Deploy in Staging Environment quick test2'){
             steps{
                 build job: 'deploy_app_staging_env'
 
